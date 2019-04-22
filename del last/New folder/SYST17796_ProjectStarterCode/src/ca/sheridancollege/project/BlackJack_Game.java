@@ -21,7 +21,7 @@ public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
     boolean s = false;
-     //player name 
+     //player's name 
     System.out.println("What's your name ?");
     String ans = scanner.nextLine();
     Player me = new Player(ans);
